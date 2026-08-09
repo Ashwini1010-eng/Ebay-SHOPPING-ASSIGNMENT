@@ -1,0 +1,26 @@
+{
+  "name": "shopping-ui-api-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UI and API automation tests for eBay and Petstore",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test tests/ui",
+    "test:api": "npx playwright test tests/api"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.62.1",
+    "playwright-core": "^1.62.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
