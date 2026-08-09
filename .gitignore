@@ -38,3 +38,7 @@
 #*.[pP][oO][tT][mM]
 #*.[pP][pP][sS]
 #*.[pP][pP][sS][mM]
+
+node_modules/
+playwright-report/
+test-results/
