@@ -9,5 +9,11 @@
     "skipLibCheck": true,
     "baseUrl": "."
   },
-  "include": ["tests", "playwright.config.ts"]
+  "include": [
+    "tests",
+    "pages",
+    "fixtures",
+    "test-data",
+    "playwright.config.ts"
+  ]
 }
